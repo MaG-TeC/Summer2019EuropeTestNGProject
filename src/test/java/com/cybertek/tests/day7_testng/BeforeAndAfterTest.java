@@ -1,4 +1,4 @@
-package com.cybertek.tests;
+package com.cybertek.tests.day7_testng;
 
 import com.google.gson.internal.bind.util.ISO8601Utils;
 import org.testng.annotations.*;
