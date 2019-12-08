@@ -3,7 +3,7 @@ import com.cybertek.utilities.WebDriverFactory;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-public class amazonTest {
+public class AmazonTest {
     /**
      * navigate to amazon.com
      * type selenium in the searchbox

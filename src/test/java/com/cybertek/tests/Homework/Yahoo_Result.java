@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-public class Homework1 {
+public class Yahoo_Result {
 
     public static void main(String[] args) {
 
@@ -20,9 +20,13 @@ public class Homework1 {
         WebElement searchButton = driver.findElement(By.id("gh-btn"));
         searchButton.click();
 
-    String resultMessage = driver.findElement(By.cssSelector("srp-controls__count-heading")).getText();
+        WebElement resultBox = driver.findElement(By.xpath("//h1/span[1]"));
 
-        System.out.println("resultMessage");
+        String resultMessage = resultBox.getText();
+
+        System.out.println("resultMessage: " + resultMessage);
+
+        driver.quit();
 
     }
 }

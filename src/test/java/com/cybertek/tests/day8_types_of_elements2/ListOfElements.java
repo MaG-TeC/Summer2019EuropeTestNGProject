@@ -24,6 +24,7 @@ public class ListOfElements {
 
        for (WebElement button : buttons) {
            System.out.println(button.getText());
+
        }
    }
     @Test
