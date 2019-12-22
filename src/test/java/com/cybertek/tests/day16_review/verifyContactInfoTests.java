@@ -54,7 +54,7 @@ public class verifyContactInfoTests extends TestBase {
         Assert.assertEquals(contactInfoPage.email.getText(), "mbrackstone9@example.com");
 
         extentLogger.info("Verify phone is +18982323434");
-        Assert.assertEquals(contactInfoPage.phone.getText(), "+189823234341");
+        Assert.assertEquals(contactInfoPage.phone.getText(), "+18982323434");
 
 
 
