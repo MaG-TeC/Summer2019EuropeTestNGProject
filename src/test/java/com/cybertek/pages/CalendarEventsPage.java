@@ -1,11 +1,12 @@
 package com.cybertek.pages;
 
+
 import com.cybertek.utilities.Driver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-class CalendarEventsPage extends BasePage {
+public class CalendarEventsPage extends BasePage {
 
     public CalendarEventsPage() {
         PageFactory.initElements(Driver.get(), this);
